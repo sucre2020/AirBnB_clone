@@ -1,0 +1,84 @@
+.filters{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filters button{
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    margin: auto 30px auto auto;
+    outline: none;
+}
+.filters button:hover{
+    opacity: 0.9;
+}
+
+.locations, .amenities{
+    height: 100%;
+    width: 25%;
+    line-height: 1;
+    position: relative;
+}
+.locations{
+    border-right: 1px solid #DDDDDD;
+}
+
+.locations h3, .amenities h3{
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 1px;
+}
+
+.locations h4, .amenities h4{
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+ul.popover{
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    width: 100%;
+    top: 0;
+    display: none;
+    margin-top: 70px;
+    position: absolute;
+    z-index: 1;
+    list-style-type: none;
+    padding-left: 0;
+    height: fit-content;
+    padding-bottom: 15px;
+}
+
+ul li h2{
+    margin-left: 20px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+ul li li{
+    margin-left: -10px;
+}
+.states li{
+    margin-left: 30px;
+    margin-top: 2px;
+}
+.states .top{
+    margin-top: 15px;
+}
+
+.filters div:hover ul.popover {
+    display: block;
+  }
